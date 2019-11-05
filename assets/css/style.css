@@ -1,0 +1,63 @@
+
+/* General Items (Headings, XYZ) */
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.form_container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+#page_container {
+    background-color: white;
+    bottom: 0; 
+    width: 100;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    width: 175px;
+    padding: 20px;
+    background-color: rgb(250, 0, 0);
+    border-color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+/* Contact Page */
+
+/* Text type and texy area styling */
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+/* Submit button */
+input[type=submit] {
+    background-color: rgb(214, 0, 0);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Mouse hover over submit */
+input[type=submit]:hover {
+    background-color: rgb(250, 0, 0);
+}
+
+
